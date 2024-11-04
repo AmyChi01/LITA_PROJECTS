@@ -50,8 +50,8 @@ In Microsoft Excel, a revenue column was created, which was calculated as Unit P
 After which Pivot table was used to summarise the data, and excel funtions used to calculate average sales per product and total revenue by region.
 2. SQL
    Queries were generated in SQL to carry out some calculations and analysis.
-   
-  ```CREATE DATABASE PROJECT_DB
+
+   ```CREATE DATABASE PROJECT_DB
 ---FOR SALES DATA---
 
 select * from [dbo].[LITA Capstone Dataset_SalesData]
@@ -113,11 +113,17 @@ where month(OrderDate) between 10 and 12----months 10, 11, 12 (October, November
 Group by Product
 having sum(quantity)=0```
 
-3. Power BI
+4. Power BI
 I created visuals, measures and new columns
-4.
 
 ### Data Visualization
+- Microsoft Excel
+
+![Capstone Sales_1](https://github.com/user-attachments/assets/51ffe030-cbf8-4250-98e9-2aa75d69875b)
+
+
+-Power BI 
+
 
 
 
