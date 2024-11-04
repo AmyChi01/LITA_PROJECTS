@@ -22,7 +22,6 @@ Here, I documented my final project while learning Data Analysis with the Incuba
 
 [Recommendations](recommendations)
 
-[Conclusions](conclusions)
 
 ## Project Overview
 ---
@@ -138,6 +137,9 @@ I created visuals, measures and new columns
 
 ![Capstone Sales_2](https://github.com/user-attachments/assets/b480ccda-353b-42eb-b8c4-171fdbb815b5)
 
+![Capstone Sales_11](https://github.com/user-attachments/assets/e16078ae-59b9-4bcc-a98f-a3ea40a9bb33)
+
+![Capstone Sales_12](https://github.com/user-attachments/assets/d480c9ec-a2da-4c18-b55b-a8ebabd8bdba)
 
 
 -Power BI 
@@ -159,4 +161,5 @@ I created visuals, measures and new columns
 ![Capstone Sales_10](https://github.com/user-attachments/assets/b1e2e053-f019-4909-bc76-95c9afe4c4f4)
 
 ### Recommendations
-Based on the information obtained from this analysis, the product with the highest sales and revenue was Hats, while Jackets had the lowest rvenue generated. Hence, the company may focus more on the advertisement and publicity for Jackets and other products with low revenue turnout. The Month with the highest sales was Februaray: this may have been as a result of the fact that Valentine's day is celebrated in February which is an avenue for gifts buying and giving. Therefore, the company may ensure that enough products are made available in February to meet the demands. 
+Based on the information obtained from this analysis, the product with the highest sales  was Hats, while Jackets had the lowest sale generated. Hence, the company may focus more on the advertisement and publicity for Jackets and other products with low sales turnout. The Month with the highest sales was Februaray: this may have been as a result of the fact that Valentine's day is celebrated in February which is an avenue for gifts buying and giving. Therefore, the company may ensure that enough products are made available in February to meet the demands. The Product with the highest revenue was shoes, indicating a strong point for the company. In addition, the South recorded the highest revenue and sales, sugesting that more attention should be paid to the other regions, so as to also boost their sales. 
+The top 5 customers by total purchase amount were Cus1431, Cus1249, Cus1302, Cus1115, Cus1005. Incentives like discounts and free delivery services may be given to these customers to show appreciation for their purchase and encourage subsequent purchases.  
