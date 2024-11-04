@@ -113,9 +113,9 @@ where month(OrderDate) between 10 and 12----months 10, 11, 12 (October, November
 Group by Product
 having sum(quantity)=0```
 
-
 3. Power BI
-I created visuals, measures and new columns. 
+I created visuals, measures and new columns
+4.
 
 ### Data Visualization
 
