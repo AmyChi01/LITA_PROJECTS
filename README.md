@@ -157,3 +157,6 @@ I created visuals, measures and new columns
 ![Capstone Sales_9](https://github.com/user-attachments/assets/264ba349-77e1-4c93-ac98-c62bffd5b200)
 
 ![Capstone Sales_10](https://github.com/user-attachments/assets/b1e2e053-f019-4909-bc76-95c9afe4c4f4)
+
+### Recommendations
+Based on the information obtained from this analysis, the product with the highest sales and revenue was Hats, while Jackets had the lowest rvenue generated. Hence, the company may focus more on the advertisement and publicity for Jackets and other products with low revenue turnout. The Month with the highest sales was Februaray: this may have been as a result of the fact that Valentine's day is celebrated in February which is an avenue for gifts buying and giving. Therefore, the company may ensure that enough products are made available in February to meet the demands. 
