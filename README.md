@@ -2,20 +2,32 @@
 Here, I documented my final project while learning Data Analysis with the Incubator Hub.
 
 ## Project Title: Sales Data Analysis
+
+### Table_of_content
+[Project Overview](#project-overview)
+
+[Data Source](data-source)
+
+[Tools Used](tools-used)
+
+[Data Cleaning and Preparation](data-cleaning-and-preparation)
+
+[Project Structure](project-structure)
+
+[Exploratory Data Analysis](exploratory-data-analysis)
+
+[Data Analysis](data-analysis)
+
+[Data Visualization](data-visualization)
+
+[Recommendations](recommendations)
+
+[Conclusions](conclusions)
+
 ## Project Overview
 ---
 This Data Analysis project aims to generate insights into the sales performance of certain products in the years 2023 and 2024. By analyzing the variuos parameters presented in the document file, I have gathered some insights to help the company involved to have a general overview of how well their products performed in the market. I have also used the information obtained to tell compelling stories around the data presented. 
 
-### Table_of_content
-#### Data Sources
-#### Tools Used
-#### Data Cleaning and Preparation
-#### Project Structure
-#### Exploratory Data Analysis
-#### Data Analysis
-#### Data Visualization
-#### Recommendations
-#### Conclusions
 
 ### Data Source
 ---
@@ -51,7 +63,8 @@ After which Pivot table was used to summarise the data, and excel funtions used 
 2. SQL
    Queries were generated in SQL to carry out some calculations and analysis.
 
-   ```CREATE DATABASE PROJECT_DB
+```SQL
+CREATE DATABASE PROJECT_DB
 ---FOR SALES DATA---
 
 select * from [dbo].[LITA Capstone Dataset_SalesData]
@@ -111,7 +124,9 @@ Select product, sum(quantity) AS Sales
 from [dbo].[LITA Capstone Dataset_SalesData]
 where month(OrderDate) between 10 and 12----months 10, 11, 12 (October, November, December)
 Group by Product
-having sum(quantity)=0```
+having sum(quantity)=0
+```
+
 
 4. Power BI
 I created visuals, measures and new columns
@@ -121,9 +136,24 @@ I created visuals, measures and new columns
 
 ![Capstone Sales_1](https://github.com/user-attachments/assets/51ffe030-cbf8-4250-98e9-2aa75d69875b)
 
+![Capstone Sales_2](https://github.com/user-attachments/assets/b480ccda-353b-42eb-b8c4-171fdbb815b5)
+
+
 
 -Power BI 
 
+![Capstone Sales_3](https://github.com/user-attachments/assets/5e0f60a8-2650-4ea4-b9d8-d492a415623e)
 
+![Capstone Sales_4](https://github.com/user-attachments/assets/d7cebd27-306d-4024-a06d-e1e406b8c43d)
 
+![Capstone Sales_5](https://github.com/user-attachments/assets/fe9f512b-9111-4775-9b7e-b1d359b966b8)
 
+![Capstone Sales_6](https://github.com/user-attachments/assets/cb462d37-58db-450d-a7e5-cd9f1e639a90)
+
+![Capstone Sales_7](https://github.com/user-attachments/assets/b815819d-e4c7-47c3-90e7-f120e8da99d8)
+
+![Capstone Sales_8](https://github.com/user-attachments/assets/79402057-ece3-4950-99ca-ee3a131ae659)
+
+![Capstone Sales_9](https://github.com/user-attachments/assets/264ba349-77e1-4c93-ac98-c62bffd5b200)
+
+![Capstone Sales_10](https://github.com/user-attachments/assets/b1e2e053-f019-4909-bc76-95c9afe4c4f4)
