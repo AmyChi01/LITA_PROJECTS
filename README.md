@@ -113,10 +113,12 @@ group by Customer_Id
 
 --- percentage of total sales contributed by each region---
 
-Select Region, sum(revenue)/sum(quantity)*0.1 AS Percentage_of_total_sales
-from [dbo].[LITA Capstone Dataset_SalesData]
-Group by Region
-order by Percentage_of_total_sales
+SELECT Region, SUM(Revenue) AS RegionTotalSales,
+FORMAT(ROUND((SUM(Revenue) / CAST((SELECT SUM(Revenue) FROM[dbo].[LITA Capstone Dataset_SalesData] ) AS DECIMAL(10,2)) * 100), 1), '0.#') 
+AS PercentageOfTotalSales
+FROM [dbo].[LITA Capstone Dataset_SalesData]
+GROUP BY Region
+ORDER BY PercentageOfTotalSales DESC
 
 ---products with no sales in the last quarter---
 Select product, sum(quantity) AS Sales
